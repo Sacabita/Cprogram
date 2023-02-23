@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+//Structure declaration
 struct  Student
 {
     char stud_name[225];
@@ -9,6 +10,7 @@ struct  Student
 };
 
 int main(){
+    //Object structure declaration
     struct  Student S; 
    printf("Enter student name:\n");
    gets(S.stud_name);
